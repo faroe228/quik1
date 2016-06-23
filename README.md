@@ -5,11 +5,8 @@ My temporary solution to use .jsx files with quik.
 Instead of using quick command - use q (script is in $HOME/bin).
 
 ```
-cd $HOME
-mkdir exp
-cd exp
-mkdir node-custom
-cd node-custom
+mkdir -p $HOME/exp/node-custom
+cd       $HOME/exp/node-custom
 
 curl -kOL https://raw.githubusercontent.com/faroe228/quik1/master/quik-v0.6.0_mod1.tar.gz
 tar xf quik-v0.6.0_mod1.tar.gz
